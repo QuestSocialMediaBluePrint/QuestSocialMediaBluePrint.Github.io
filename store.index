@@ -1,0 +1,239 @@
+
+<html>
+
+<head>
+
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #333;  
+}
+
+p {
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.intro {
+  font-size: 1.2em;
+  font-style: italic;  
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Understanding Qeust Store Performance 101</h1>
+      <p class="byline">By <a href="https://www.linkedin.com/in/rohan-pandula-178935238/">Rohan Pandula</a>, Developer Strategist @ Meta.</p>
+
+<h3>Table of contents:</h3>
+
+<p>
+  <a href="#why">Why store performance matters</a>
+</p>
+
+<p>
+  <a href="#how">How to access store store performance data</a>
+</p>
+
+<p>
+  <a href="#solutions">Solutions</a>  
+</p>
+
+<h2 id="why">Why store performance matters:</h2>
+
+<p>Store performance is a pivotal factor in a title's success on the platform. It largely depends on the title's ability to attract users to its 'hero image'.</p>
+
+<p>The 'hero image' is the primary image associated with a specific title. It's the first visual representation of the application that users encounter when browsing for new content. This image should be compelling and accurately represent the application to entice potential users. The way our algorithm operates, the more clicks this image garners (also known as the click-through rate, or CTR), the more frequently it will be displayed to other users. This means that a high CTR can significantly increase the visibility of your application on the platform.</p>
+
+<p>Following the hero image, users land on the Product Description Page (PDP). This page provides more detailed information about the application. It plays a critical role in setting clear expectations for the user about what the title entails and whether it aligns with their needs or interests. The PDP should be informative, engaging, and honest to effectively communicate the value proposition of your application.</p>
+
+<p>For premium purchase applications, the PDP is especially crucial as the commitment to buy an app involves a financial investment. Therefore, the PDP must convincingly demonstrate the value and benefits of the application to justify the purchase.</p>
+
+<p>On the other hand, for subscription-based apps, the commitment to download is relatively low as it's perceived as "free" to start. This means that users are more likely to download the application to try it out, making the PDP a crucial point of conversion. Therefore, a well-crafted PDP can significantly influence the user's decision to download and subscribe.</p>
+
+<p>The next phase of store performance is how often they are shown in the store.&nbsp;</p>
+
+<p>Demo App 1</p>
+
+<div>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td><strong>Surface</strong></td>
+
+<td><strong>Reach</strong></td>
+
+<td><strong>Unique Clicks</strong></td>
+
+<td><strong>Unique Conversions</strong></td>
+
+</tr>
+
+<tr>
+
+<td><strong>Combined</strong></td>  
+
+<td>948295</td>
+
+<td>38027</td>
+
+<td>5449</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Store</strong></td>
+
+<td>792403</td>
+
+<td>24813</td>
+
+<td>3216</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Search</strong></td>
+
+<td>250371</td>  
+
+<td>15944</td>
+
+<td>2445</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<p>
+  <em>Disclaimer: All data shown is demo data and not real numbers</em>
+</p>
+
+<p>From the data, it's evident that a significant number of impressions come from the quest store rather than search. This indicates two things:</p>
+
+<ol>
+
+<li>The developer does not have many users coming from off-platform activities such as Social Media, Physical Locations, or Word of Mouth.</li>
+
+<li>The developer is reliant on impressions coming from being featured on the store to drive downloads.</li>
+
+</ol>  
+
+<p>Search traffic is crucial because it indicates a high user interest in the title. Based on the conversion data, 43.2% came from search despite a much lower impression input. Therefore, developers should always strive to build their “impression muscle” outside of the store as this will lead to higher intent users and higher conversion rates.</p>
+
+<h2 id="how">How to Access Store Performance Data</h2>
+
+<p>Store performance data can be a valuable resource in understanding how your application is performing and where improvements can be made.&nbsp;</p>
+
+<p>Here's how you can access this data:</p>
+
+<p>
+  <strong>Step 1:</strong>
+  Navigate to the respective developer's dashboard.</p>
+
+<p>
+  <strong>Step 2:</strong>
+  On the left side of the dashboard, click on 'Analytics', then select 'Funnel'.</p>
+
+<p>
+  <strong>Step 3:&nbsp;</strong>
+
+</p>  
+
+<p>
+  <strong>First Bar:</strong>
+  Represents the number of users who viewed the hero image. This gives you an idea of how many users your application is reaching.</p>
+
+<p>
+  <strong>Second Bar:</strong>
+  Represents the number of users who clicked on the hero image after viewing it. This provides insight into the effectiveness of your hero image in attracting user interest.</p>
+
+<p>
+  <strong>Third Bar:</strong>
+  Represents the number of users who downloaded the title. This is a direct measure of your conversion rate.</p>
+
+<p>In the provided example, you can see that this is a subscription application, which means the conversion data is much higher (31.9%) than that of a premium purchase app (14.4%). This illustrates the difference in user behavior between "free" subscription apps and paid premium apps, and underscores the importance of tailoring your PDP and hero image to your application's pricing model.</p>
+
+<h2 id="solutions">Solutions</h2>
+
+<p>If you find that the click-through rate (CTR) on the hero image is low, it's recommended to utilize
+  <a href="https://developer.oculus.com/blog/meta-quest-store-a-b-testing/" target="_blank">A/B testing</a>. This method allows you to compare two versions of your hero image to see which one performs better. You can read about best practices for A/B testing
+  <a href="https://developer.oculus.com/resources/ab-testing-best-practices/" target="_blank">here</a>.</p>
+
+<p>If there's an issue with conversions from the Product Description Page (PDP) to download, it could be due to two potential reasons:</p>  
+
+<ol>
+
+  <li>
+    <strong>PDP Description or Trailer:</strong>
+    If these elements are not compelling enough, they may not effectively convince users to download the application. One way to address this is by running an A/B test on the PDP description. It's also beneficial to examine the top-performing applications in your category to understand what strategies are working well for them.</li>
+
+  <li>
+    <strong>Pricing:</strong> 
+    If your application is a premium purchase, the issue could be related to pricing. Users may be sensitive to the price, especially if they feel the cost is not justified by the value of the application. Conduct an analysis of applications in your category to understand your price-to-value ratio in comparison to other titles. This can provide insights into whether adjusting your pricing strategy could improve conversion rates</li>
+  
+  <ol>
+    <li>If the application is subscription based, try
+      <a href="https://developer.oculus.com/resources/subscriptions/" target="_blank">Intro Offers.</a>
+      This allows users who may be price sensitive to try a month without paying the full price.&nbsp;</li>
+
+    <li>If the application is premium purchase, try “<a href="https://developer.oculus.com/resources/try-before-you-buy/" target="_blank">Try Before you Buy”</a>
+      which allows users a free 15 minute trial of your application</li>
+  </ol>
+
+</ol>
+
+<p>If the majority of impressions were from search rather than the store, it would signal that the store is not providing enough placements for high visibility. The next step would be to engage with store merchandising to understand what opportunities are available for placements.</p>
+
+<p>If a majority of impressions come from the store rather than search, it's crucial to consider other strategies to increase visibility and engagement. The
+  <a href="https://questsocialmediablueprint.github.io/" target="_blank">Quest Go-To-Market guide</a>
+  provides valuable insights on how to build a community, embrace social media, and continue to engage with the developer's audience off-platform.</p>
+
+<p>
+  <strong>Key Strategies</strong>
+</p>
+
+<ol>
+  <li>
+    <strong>Building a Community</strong>: Create a space where your users can interact, share experiences, and provide feedback. This could be a forum, a dedicated website, or a group on a social media platform. Engage with your community regularly to keep them interested and invested in your app.</li>
+
+  <li>
+    <strong>Embracing Social Media</strong>: Utilize platforms like Facebook, Twitter, Instagram, and LinkedIn to reach a wider audience. Regular updates, behind-the-scenes content, and user-generated content can help keep your audience engaged.</li>
+
+  <li>
+    <strong>Engaging Off-Platform</strong>: Don't limit your engagement to the store. Participate in relevant discussions on platforms like Reddit, Quora, and industry-specific forums. This can help increase your visibility and attract users who may not have discovered your app through the store.</li>
+
+</ol>  
+
+<p>Remember, the goal is to build your "impression muscle" outside of the store. This will not only increase your visibility but also attract higher intent users, leading to higher conversion rates.</p>
+
+</body>
+
+</html>
